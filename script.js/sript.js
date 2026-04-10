@@ -15,3 +15,16 @@ function ecrire(){
    }
 }
 window.onload=ecrire;
+document.getElementById("monFormulaire").addEventListener("submit", function(e) {
+    e.preventDefault(); // empêche le rechargement
+
+    let nom = document.getElementById("nom").value;
+    let email = document.getElementById("email").value;
+    let message = document.getElementById("message").value;
+
+    console.log("Nom :", nom);
+    console.log("Email :", email);
+    console.log("Message :", message);
+
+    alert("Message envoyé !");
+});
