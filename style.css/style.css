@@ -1,0 +1,141 @@
+header{
+    display: flex;
+    background-color: rgb(19, 214, 19);
+    align-items: center;
+    justify-content: space-between;
+}
+body{
+     background:rgb(221, 21, 21);
+      color: white;
+    padding:10px 20px ;
+    flex-direction: column;
+}
+.moi{
+    display: flex;
+    flex-direction: column;
+    height: 15cm;
+
+}
+.maphoto{
+    background-color: rgb(46, 56, 32);
+    width: 100%;
+    height: 300px;
+    background-image: url("capture.png");
+    background-size: cover;
+    background-position: center;
+}
+.mesinfos{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#maphoto{
+    height: 13cm;
+    width: 15cm;
+    border-radius: 50%;
+    background-color:   rgb(46, 56, 32);
+    
+}
+.localisation{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 2cm;
+    justify-content: space-between;
+}
+#contact{
+    border-radius: 50px;
+    border-color: blanchedalmond;
+}
+.localisation :hover{
+    font-size: 30px;
+    transition: 1,5;
+}
+ul{text-decoration: dotted;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 15px;
+}
+#nom{
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#fred{
+    color: aquamarine;
+}
+#apropos{
+    height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.presentation{
+    display: flex;
+    gap: calc(10px);
+    font-size: 25px;
+    justify-content: space-between;
+    margin-top: 2cm;
+}
+#frednanfack{
+    margin-bottom: 2cm;
+}
+#mestalents{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: calc(50px);
+}
+img{
+    width:3cm ;
+    height: 3cm;
+}
+button{
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.fredi{
+    height: 13cm;
+    width: 5cm;
+}
+.title{
+    margin-bottom: 2cm;
+}
+/* .body2{
+    position: fixed;
+} */
+#mestalents button{
+    height: 20vh;
+}
+#texte{
+    font-size: 20px;
+    padding-right: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    align-content: center;
+    
+
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(46, 56, 32);
+}
+#cotes{
+    font-size: 40px;
+    color: rgba(41, 7, 80, 0.441);
+}
+#cep{
+    background-color: rgb(19, 214, 19); 
+    margin-right: 100cm;
+    padding-right: 1cm;
+}
+#bepc{
+    background-color:  rgb(19, 214, 19);
+    margin-right: 16;
+}
+    
+
+
