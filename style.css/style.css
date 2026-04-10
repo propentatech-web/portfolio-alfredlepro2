@@ -3,12 +3,14 @@ header{
     background-color: rgb(19, 214, 19);
     align-items: center;
     justify-content: space-between;
+    background: linear-gradient(blue,red);
 }
 body{
      background:rgb(221, 21, 21);
       color: white;
     padding:10px 20px ;
     flex-direction: column;
+    background: linear-gradient(blue,red);
 }
 .moi{
     display: flex;
@@ -23,6 +25,7 @@ body{
     background-image: url("capture.png");
     background-size: cover;
     background-position: center;
+    background: linear-gradient(red, rgb(8, 8, 252));
 }
 .mesinfos{
     display: flex;
@@ -34,6 +37,7 @@ body{
     width: 15cm;
     border-radius: 50%;
     background-color:   rgb(46, 56, 32);
+    background: radial-gradient(rgba(241, 6, 6, 0.959),#6a11cb);
     
 }
 .localisation{
@@ -46,6 +50,7 @@ body{
 #contact{
     border-radius: 50px;
     border-color: blanchedalmond;
+    margin-bottom: 1cm;
 }
 .localisation :hover{
     font-size: 30px;
@@ -122,20 +127,58 @@ footer{
     display: flex;
     justify-content: space-between;
     background-color: rgb(46, 56, 32);
+    background: linear-gradient(blue,red)
 }
 #cotes{
-    font-size: 40px;
-    color: rgba(41, 7, 80, 0.441);
+     font-size: 40px;
+    color: rgb(6, 5, 5);
+}    
+#bouttonmecontacter{
+    width: 3cm;
+    height: 1cm;
 }
-#cep{
-    background-color: rgb(19, 214, 19); 
-    margin-right: 100cm;
-    padding-right: 1cm;
-}
-#bepc{
-    background-color:  rgb(19, 214, 19);
-    margin-right: 16;
-}
+.monparcours{
     
+}
+#bouttonmecontacter :hover{
+    background-color: red;
+}
+.bar{
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    text-align: center;
+}
+.cep{
+    width: 20%;
+    background: linear-gradient(to right,blue,red);
+}
+.bepc{
+    width: 40%;
+     background: linear-gradient(to right,blue,red);
+}
+
+.probatoire{
+    width: 60%;
+     background: linear-gradient(to right,blue,red);
+}
+.baccalaureat{
+    width: 75%;
+     background: linear-gradient(to right,blue,red);
+}
+.licence1{
+    width: 90%;
+     background: linear-gradient(to right,blue,red);
+}
+.mesrealisations{
+    display: flex;
+    justify-content: space-between;
+}
+#machine{
+    width: 8cm;
+    height: 8cm;
+}
+
 
 
